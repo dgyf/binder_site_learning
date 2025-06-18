@@ -18,4 +18,15 @@ and shape (Briefings in bioinformatics, 2023)
 * EQUIBIND: Geometric Deep Learning for Drug Binding Structure Prediction (ICML, 2022)
 * GeoBind: segmentation of nucleic acid binding interface on protein surface with geometric deep learning (Nucleic Acids Research. 2023)
 * Protein–DNA binding sites prediction based on pre-trained protein language model and contrastive learning (Briefings in bioinformatics, 2024)
+```
+Model name: CLAPE-DB
+Aim: predict DNA binding residues, protein–DNA binding sites, protein–ligand binding sites
+Framework: three main modules: the sequence embedding module,
+the backbone network module and the loss computation module.
+Type: classification
+Traits: Pre-training + CL
+Code source: Y
+```
+
+* 
 * 
