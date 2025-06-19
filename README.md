@@ -31,6 +31,22 @@ and shape (Briefings in bioinformatics, 2023)
 ## 8 SurfDock is a surface-informed diffusion generative model for reliable and accurate protein–ligand complex prediction (Nature Methods. 2025)
 ## 9 EQUIBIND: Geometric Deep Learning for Drug Binding Structure Prediction (ICML, 2022)
 ## 10 GeoBind: segmentation of nucleic acid binding interface on protein surface with geometric deep learning (Nucleic Acids Research. 2023)
+
+**Model name**: GeoBind
+
+**Aim**: predicting nucleic binding sites on protein surface, 5 ligand binding sites prediction tasks. 
+
+**Hypothesize**: molecular surfaces imply fingerprints of interaction patterns between proteins and nucleic acid.
+
+**Framework**: point clouds -> <MSA information, chemical environment and local curvature> -> <MLP + quasi-geodesic convolutional layers + MLP> *4
+
+**Type**: classification
+
+**Traits**: GeoBind is invariant to 3D rotations and translations, GeoBind is able to analyze the surface of multimeric protein complex (due to MaSIF, point clouds)
+
+**Code source**: Y
+
+
 ## 11 Protein–DNA binding sites prediction based on pre-trained protein language model and contrastive learning (Briefings in bioinformatics, 2024)
 
 **Model name**: CLAPE-DB
