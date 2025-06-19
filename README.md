@@ -6,15 +6,21 @@
 * Protein–protein and protein–nucleic acid binding site
 prediction via interpretable hierarchical geometric deep
 learning (GigaScience, 2024)
-```
-Model name: GraphRBF
-Aim: protein binding sites, residue binding patterns！protein–protein and protein–nucleic acid binding sites (protein–DNA, and protein–RNA)
-Framework: an enhanced graph neural network + a prioritized radial basis function neural network (capture the local residue spatial distributions) + a new radial basis function (termed gentle decay Gaussian-like function) + a kernel attention mechanism.
-Type: classification
-Traits: end-to-end, interpretable, hierarchical geometric deep learning model, residue information interaction based on molecular graphs, residue spatial distributions
-Weak popints: only utilizes protein local structures, ignoring information of the overall structure.
-Code source: Y
-```
+
+**Model name**: GraphRBF
+
+**Aim**: protein binding sites, residue binding patterns！protein–protein and protein–nucleic acid binding sites (protein–DNA, and protein–RNA)
+
+**Framework**: an enhanced graph neural network + a prioritized radial basis function neural network (capture the local residue spatial distributions) + a new radial basis function (termed gentle decay Gaussian-like function) + a kernel attention mechanism.
+
+**Type**: classification
+
+**Traits**: end-to-end, interpretable, hierarchical geometric deep learning model, residue information interaction based on molecular graphs, residue spatial distributions
+
+**Weak popints**: only utilizes protein local structures, ignoring information of the overall structure.
+
+**Code source**: Y
+
 
 * DeepSTF: predicting transcription factor binding sites by
 interpretable deep neural networks combining sequence
