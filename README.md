@@ -13,7 +13,7 @@ learning (GigaScience, 2024)
 
 **Type**: classification
 
-**Traits**: end-to-end, interpretable, hierarchical geometric deep learning model, residue information interaction based on molecular graphs, residue spatial distributions
+**Traits**: end-to-end, interpretable, hierarchical geometric deep learning model, residue information interaction based on molecular graphs, residue spatial distributions, <sequencec, structure> + <Notes, edges, coords>.
 
 **Weak popints**: only utilizes protein local structures, ignoring information of the overall structure.
 
