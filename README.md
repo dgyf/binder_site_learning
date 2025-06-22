@@ -62,4 +62,18 @@ and shape (Briefings in bioinformatics, 2023)
 **Code source**: Y
 
 
-## 12 
+## 12 Gated-GPS: enhancing protein–protein interaction site prediction with scalable learning and imbalance-aware optimization  
+
+**Model name**: Gated-GPS
+
+**Aim**: protein–protein interaction site (PPIS) prediction
+
+**Framework**: three main modules: the sequence embedding module, the backbone network module and the loss computation module.
+
+**Type**: classification
+
+**Traits**: addressing data scarcity, feature integration challenges, and class imbalance issues. (By expanding the training dataset, designing an innovative
+model architecture, and refining the loss function)
+
+**Code source**: Y
+
