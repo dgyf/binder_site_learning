@@ -68,7 +68,7 @@ and shape (Briefings in bioinformatics, 2023)
 
 **Aim**: protein–protein interaction site (PPIS) prediction
 
-**Framework**: three main modules: the sequence embedding module, the backbone network module and the loss computation module.
+**Framework**: <two-dimensional edge feature (Euclidean distance and angular relationship between residue vectors), d-dimensional node feature (14 dimensions of DSSP features, seven dimensions of Atomic properties, one dimension of Pseudo-Positions embedding, 20 dimensions of BLOSUM62 embeddings, p dimensions of PLM embeddings, and K dimensions of PE features)>  --> Gated-GPS Blocks --> Multi-head
 
 **Type**: classification
 
